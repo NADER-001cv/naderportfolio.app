@@ -36,6 +36,25 @@ function About() {
       </div>
     
     </div>
+    <div className="row mt-5">
+      <div className="col-9 mx-auto">
+      <div className="d-flex justify-content-between     p-4">
+     
+        <div className={`col-md-4 offset-md-4 ms-5 p-3`}>
+           
+              <h4 className="text-start fs-5 text-capitalize"> experience </h4>
+           
+             
+        
+        </div>
+
+        <div  className={`col-md-4  p-3`}>
+       
+        </div>
+      </div>
+      </div>
+    
+    </div>
 </div>
     </div>
     
