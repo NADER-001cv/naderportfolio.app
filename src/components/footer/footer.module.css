@@ -71,8 +71,20 @@ text-align: center;
   
      }
     
- 
-  
+ .endcontentsocial{ 
+
+    display: flex !important;
+    justify-content: space-around !important;
+ }
+  .endcontentsocial .social {
+        display: flex  !important;
+        flex-direction: column !important;
+        justify-content: space-around !important;
+  }
+
+  .endcontentsocial .social a {
+    margin-right: 10px !important;
+  }
   }
 
 

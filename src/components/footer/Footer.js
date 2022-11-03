@@ -10,38 +10,40 @@ function Footer() {
               <div className={`d-flex justify-content-between p-4 ${footers.footersm}`}>
                 <div className={`col-4  text-white  ${footers.endcontentone}`}>
                 <h3 className="mb-3"> Social Media</h3>
-                  <p className={footers.social}>
-                    <span style={{ color: "#fff", margin: "0px 10px" }}>
-                      <i class="fa-brands fa-facebook"></i>
-                    </span>
-                    <a target="_blanck" href="https://www.facebook.com/profile.php?id=100011508180270">
-                      Facebook
-                    </a>
-                  </p>
-                  <p className={footers.social}>
-                    <span style={{ color: "#fff", margin: "0px 10px" }}>
-                      <i class="fa-brands fa-github"></i>
-                    </span>
-                    <a target="_blanck" href="https://github.com/NADER-001cv">
-                    Github
-                  </a>
-                  </p>
-                  <p className={footers.social}>
-                  <span style={{ color: "#fff", margin: "0px 10px" }}>
-                  <i class="fa-brands fa-linkedin"></i>
-                  </span>
-                  <a target="_blanck" href="https://www.linkedin.com/in/nader-chargui-6b91b01b3/">
-                    Linkedin
-                  </a>
-                </p>
+                <div  className={` ${footers.endcontentsocial}`}>
                 <p className={footers.social}>
                 <span style={{ color: "#fff", margin: "0px 10px" }}>
-                <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-brands fa-facebook"></i>
                 </span>
-                <a target="_blanck" href="https://twitter.com/NADERCHARGUI1">
-                  Twitter
+                <a target="_blanck" href="https://www.facebook.com/profile.php?id=100011508180270">
+                  Facebook
                 </a>
-                 </p>
+              </p>
+              <p className={footers.social}>
+                <span style={{ color: "#fff", margin: "0px 10px" }}>
+                  <i class="fa-brands fa-github"></i>
+                </span>
+                <a target="_blanck" href="https://github.com/NADER-001cv">
+                Github
+              </a>
+              </p>
+              <p className={footers.social}>
+              <span style={{ color: "#fff", margin: "0px 10px" }}>
+              <i class="fa-brands fa-linkedin"></i>
+              </span>
+              <a target="_blanck" href="https://www.linkedin.com/in/nader-chargui-6b91b01b3/">
+                Linkedin
+              </a>
+            </p>
+            <p className={footers.social}>
+            <span style={{ color: "#fff", margin: "0px 10px" }}>
+            <i class="fa-brands fa-twitter"></i>
+            </span>
+            <a target="_blanck" href="https://twitter.com/NADERCHARGUI1">
+              Twitter
+            </a>
+             </p>
+                </div>
                 </div>
                 <div className="col-4  ">
                   <h3 className="text-white ">Contact </h3>
