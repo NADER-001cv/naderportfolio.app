@@ -23,7 +23,7 @@ function About() {
                  
               </h5>
              <p  className="fst-normal">
-              I'm Nader Chargui full stack developer
+              I'm Nader Chargui full stack developer and
              </p>
              
         
