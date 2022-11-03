@@ -85,6 +85,22 @@ text-align: center;
   .endcontentsocial .social a {
     margin-right: 10px !important;
   }
+
+  .footersm{
+    margin-right: 8px !important;
+  }
+
+  .endcontentword h3 {
+    text-align: center !important;
+    margin-bottom: 25px !important;
+  }
+  .endcontentwordabout , .endcontentwordcontact{
+margin-top: 25px !important;
+
+  }
+  .social span i{
+    text-align: center !important;
+  }
   }
 
 

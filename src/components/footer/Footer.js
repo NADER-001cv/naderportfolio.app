@@ -8,7 +8,7 @@ function Footer() {
           <div className="row mt-5">
             <div className="col-9 mx-auto">
               <div className={`d-flex justify-content-between p-4 ${footers.footersm}`}>
-                <div className={`col-4  text-white  ${footers.endcontentone}`}>
+                <div className={`col-4  text-white  ${footers.endcontentone} ${footers.endcontentword}`}>
                 <h3 className="mb-3"> Social Media</h3>
                 <div  className={` ${footers.endcontentsocial}`}>
                 <p className={footers.social}>
@@ -45,8 +45,8 @@ function Footer() {
              </p>
                 </div>
                 </div>
-                <div className="col-4  ">
-                  <h3 className="text-white ">Contact </h3>
+                <div className={`col-4 ${footers.endcontentword}`}>
+                  <h3 className={`text-white   ${footers.endcontentwordcontact}`}>Contact </h3>
 
                   <p className={`fs-4  ${footers.socialcontentTop}`}>
                     Can you contact me via 
@@ -74,8 +74,8 @@ function Footer() {
                 </div>
                  
                 </div>
-                <div className={`col-4  text-white  ${footers.endcontenthree}`}>
-                  <h3 className="mb-3">About Me</h3>
+                <div className={`col-4  text-white  ${footers.endcontenthree}  ${footers.endcontentword}`}>
+                  <h3 className={`mb-3   ${footers.endcontentwordabout}`}>About Me</h3>
                   <p className={`text-muted lh-3 ${footers.endcontent}`}>
                   Passionate about new technologies, always looking for new challenges and learn new things. My priority
 is to provide a high quality software with a maintainable source code. I pay attention to details, I love my
