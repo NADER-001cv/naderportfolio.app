@@ -38,13 +38,13 @@ function Contact() {
      
       
       </div>
-      <div className="col-5 d-flex justify-content-center align-items-center  ">
-   
+      <div className="col-5 align-self-stretch  ">
+        <div  className={`${contactes.card}`}>
+        kk
+        
+        </div>
 
-      <map name="workmap">
-  <area shape="rect" className="bg-black"  coords="34,44,270,350" alt="Computer" href="https://goo.gl/maps/ecmYYV3Qnf1K7nzFA"/>
- 
-</map>
+   
       </div>
       
       </div>
