@@ -90,5 +90,20 @@ padding: 20px;
          
           margin: 45px 0px 45px;
       }
-  
+  .formsm .card {
+padding: 15px !important;
+   
+   
+  }
+
+  .card{
+
+    background-color: red !important;
+    position: relative;
+    top: 450px !important;
+    width: 452px !important;
+   transform: translateX(-13%) !important;
+   padding: 28px !important;
+   border-radius: 15px !important;
+  }
   }
