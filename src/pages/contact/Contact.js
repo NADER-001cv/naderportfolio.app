@@ -39,7 +39,7 @@ function Contact() {
       
       </div>
       <div className="col-5 align-self-stretch  ">
-        <div  className={`${contactes.card} text-black `}>
+        <div  className={`${contactes.card}  `}>
              <div>contact here</div>
              <div>contact here</div>
              <div>contact here</div>
